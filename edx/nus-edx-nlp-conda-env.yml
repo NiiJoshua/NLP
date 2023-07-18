@@ -1,0 +1,30 @@
+name: nus-edx-nlp 
+channels:
+  - defaults
+  - conda-forge
+  - huggingface
+dependencies:
+  - python=3.9
+  - cupy
+  - datasets
+  - ipykernel
+  - ipympl
+  - ipywidgets
+  - jupyter
+  - jupyterlab
+  - matplotlib
+  - networkx
+  - nltk
+  - numpy
+  - pandas
+  - pytorch
+  - pytorch-cuda=11.6
+  - scikit-learn
+  - seaborn
+  - spacy
+  - spacy-model-en_core_web_sm
+  - spacy-transformers
+  - torchtext
+  - tqdm
+  - torchaudio
+  - torchvision
